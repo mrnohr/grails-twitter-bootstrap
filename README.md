@@ -10,6 +10,7 @@ Basically, here is what I did to create this:
 4. Clean up some references to missing resources, and update the index.gsp page to look more like the default grails index.gsp
 
 **Resources:**
+
 Twitter-Bootstrap plugin: 
 * http://grails.org/plugin/twitter-bootstrap
 * https://github.com/groovydev/twitter-bootstrap-grails-plugin
