@@ -3,6 +3,7 @@
 A basic Grails application that has been updated with all the plugins, files, and resources to include the Twitter Bootstrap look-and-feel.
 
 Basically, here is what I did to create this:
+
 1. grails create-app
 2. Add twitter-bootstrap and fields plugins
 3. Copy scaffolding files from the example application
@@ -10,16 +11,16 @@ Basically, here is what I did to create this:
 
 **Resources:**
 Twitter-Bootstrap plugin: 
-http://grails.org/plugin/twitter-bootstrap
-https://github.com/groovydev/twitter-bootstrap-grails-plugin
+* http://grails.org/plugin/twitter-bootstrap
+* https://github.com/groovydev/twitter-bootstrap-grails-plugin
 
 Fields plugin:
-http://grails.org/plugin/fields
-http://freeside.co/grails-fields/
+* http://grails.org/plugin/fields
+* http://freeside.co/grails-fields/
 
 Scaffolding Details
-http://grails-twitter-bootstrap.cloudfoundry.com/
-https://github.com/robfletcher/twitter-bootstrap-scaffolding
+* http://grails-twitter-bootstrap.cloudfoundry.com/
+* https://github.com/robfletcher/twitter-bootstrap-scaffolding
 
 **Background**
 
