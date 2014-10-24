@@ -1,4 +1,4 @@
-package twitter.bootstrap.scaffolding
+package bootstrap.scaffolding
 
 import org.springframework.validation.Errors
 import org.springframework.validation.FieldError
@@ -6,7 +6,7 @@ import org.springframework.validation.FieldError
 class FormsTagLib {
 
 	static namespace = "bootstrap"
-	
+
 	def fieldError = { attrs ->
 		def bean = attrs.bean
 		def field = attrs.field
@@ -17,7 +17,7 @@ class FormsTagLib {
 			out << g.message(error: error)
 			out << '</span>'
 		}
-		
+
 	}
-	
+
 }

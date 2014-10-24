@@ -1,4 +1,4 @@
-package twitter.bootstrap.scaffolding
+package bootstrap.scaffolding
 
 import org.springframework.validation.Errors
 import org.springframework.validation.FieldError
@@ -7,7 +7,7 @@ import org.springframework.web.servlet.support.RequestContextUtils as RCU
 class PaginationTagLib {
 
 	static namespace = "bootstrap"
-	
+
 	def paginate = { attrs ->
         def writer = out
         if (attrs.total == null) {
@@ -109,7 +109,7 @@ class PaginationTagLib {
 			writer << link(nextLinkAttrs, '<i class="icon-chevron-right"></i>')
 			writer << '</li>'
 		}
-		
+
 		writer << '</ul>'
 	}
 
