@@ -10,11 +10,11 @@
 	<link rel="apple-touch-icon" sizes="114x114" href="${assetPath(src: 'apple-touch-icon-retina.png')}">
 
     <!-- Bootstrap core CSS-->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="${assetPath(src: 'bootstrap.min.css')}" rel="stylesheet">
 	<!-- Bootstrap theme -->
-    <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="${assetPath(src: 'bootstrap-theme.min.css')}" rel="stylesheet">
 	<!-- Custom theme styles -->
-    <link href="/css/theme.css" rel="stylesheet">
+    <link href="${assetPath(src: 'theme.css')}" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
